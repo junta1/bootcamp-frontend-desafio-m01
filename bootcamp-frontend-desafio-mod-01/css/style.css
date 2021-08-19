@@ -71,6 +71,15 @@ header #pesquisar button:hover {
   padding: 50px;
   text-align: center;
 }
+#contato button {
+  background-color: #d52856;
+  color: white;
+  border-color: #d52856;
+}
+#contato button:hover {
+  background-color: #b52249;
+  cursor: pointer;
+}
 
 footer {
   background-color: #212529;

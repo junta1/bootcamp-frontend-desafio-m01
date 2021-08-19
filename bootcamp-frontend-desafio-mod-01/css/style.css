@@ -1,0 +1,90 @@
+header {
+  position: sticky;
+}
+header #image-logo {
+  max-width: 100px;
+  height: auto;
+}
+header #pesquisar button {
+  background-color: #d52856;
+  color: white;
+}
+header #pesquisar button:hover {
+  background-color: #b52249;
+  cursor: pointer;
+}
+
+.carousel__topo {
+  height: 450px;
+}
+
+#blogs .blogs__quadro {
+  text-align: center;
+}
+#blogs .blogs__quadro img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  padding: 20px;
+}
+#blogs .blogs__quadro img:hover {
+  transform: scale(1.2);
+}
+
+#trilha, #treino {
+  position: relative;
+}
+#trilha #trilha__imagem, #trilha #treino__imagem, #treino #trilha__imagem, #treino #treino__imagem {
+  max-height: 300px;
+  width: 100%;
+  filter: brightness(50%);
+}
+#trilha #trilha__txt, #trilha #treino__txt, #treino #trilha__txt, #treino #treino__txt {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  text-align: center;
+  color: white;
+}
+
+#planos {
+  padding: 60px;
+  color: gray;
+}
+#planos #planos__title {
+  text-align: center;
+}
+#planos .planos__quadro {
+  text-align: center;
+}
+#planos .planos__quadro a {
+  background-color: #d52856;
+  color: white;
+  border-color: #d52856;
+  width: 100%;
+}
+
+#contato {
+  color: gray;
+}
+#contato h1 {
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  background-color: #212529;
+  width: 100%;
+  height: 100px;
+}
+footer .col {
+  margin-top: 40px;
+}
+footer .col p {
+  color: white;
+}
+footer .col #footer__ancora {
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
